@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.m13_proyecto.Alumnado
 import com.example.m13_proyecto.R
 
+//estos son los métodos
 class AlumnadoAdapter ( private val alumnadoList:List<Alumnado>,) : RecyclerView.Adapter<AlumnadoViewHolder>(){
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): AlumnadoViewHolder {
         val layoutInflater=LayoutInflater.from(parent.context)
