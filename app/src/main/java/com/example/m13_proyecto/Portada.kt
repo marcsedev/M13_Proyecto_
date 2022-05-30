@@ -25,7 +25,7 @@ class Portada : AppCompatActivity() {
         binding.btIniciarSesion.setOnClickListener {
         val lanzar = Intent(this, MainActivity::class.java)
         startActivity((lanzar))
-
+//prueba
         }
     }
 
