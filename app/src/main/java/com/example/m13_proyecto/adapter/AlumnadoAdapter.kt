@@ -20,7 +20,7 @@ class AlumnadoAdapter ( private val alumnadoList:List<Alumnado>,) : RecyclerView
 
     override fun getItemCount(): Int =alumnadoList.size
 
-//cambio 2
+//cambio2
 
 }
 
