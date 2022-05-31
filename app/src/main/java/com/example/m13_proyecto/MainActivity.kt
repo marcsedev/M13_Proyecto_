@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
     fun initRecycleview(){
         binding.rvListClass.layoutManager= LinearLayoutManager(this)
-        binding.rvListClass.adapter=AlumnadoAdapter(AlumnadoProvider.alumnadolist)
+        binding.rvListClass.adapter=AlumnadoAdapter(AlumnadoProvider.alumnadolists)
 
     }
 

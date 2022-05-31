@@ -3,23 +3,20 @@ package com.example.m13_proyecto.adapter
 import android.view.View
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
-import com.example.m13_proyecto.Alumnado
-import com.example.m13_proyecto.databinding.ItemAlumnadoBinding
+import com.example.m13_proyecto.Student
+import com.example.m13_proyecto.databinding.ItemStudentBinding
 
 class AlumnadoViewHolder(view: View):RecyclerView.ViewHolder(view) {
 
-    val binding = ItemAlumnadoBinding.bind(view)
+    val binding = ItemStudentBinding.bind(view)
 
-    fun render(alumnadoModel:Alumnado){
+    fun render(studentModel:Student){
 
-        binding.tvSuperHeroName.text = alumnadoModel.superhero
-        binding.tvRealName.text=alumnadoModel.realName
-        binding.tvPublisher.text=alumnadoModel.publisher
-        Glide.with(binding.ivHero.context).load(alumnadoModel.photo).into(binding.ivHero)
+        binding.studentName.text=studentModel.name
+        //Glide.with(binding.intolerancias.context).load(studentModel.photo).into(binding.intolerancias)
         itemView.setOnClickListener { (Toast.makeText(
-            binding.ivHero.context,
-            alumnadoModel.superhero,
+            binding.studentName.context,
+            studentModel.name,
             Toast.LENGTH_SHORT
         )).show() }
 

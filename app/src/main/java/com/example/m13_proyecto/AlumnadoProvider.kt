@@ -2,16 +2,16 @@ package com.example.m13_proyecto
 
 class AlumnadoProvider {
     companion object{
-        val alumnadolist=listOf<Alumnado>(
-            Alumnado("Spiderman","Peter Parker","Marvel","https://cursokotlin.com/wp-content/uploads/2017/07/spiderman.jpg"),
-            Alumnado("Batman","Peter Parker","Marvel","https://cursokotlin.com/wp-content/uploads/2017/07/batman.jpg"),
-            Alumnado("Wonder Woman","Peter Parker","Marvel","https://cursokotlin.com/wp-content/uploads/2017/07/wonder_woman.jpg"),
-            Alumnado("Spiderman","Peter Parker","Marvel","https://cursokotlin.com/wp-content/uploads/2017/07/spiderman.jpg"),
-            Alumnado("Batman","Peter Parker","Marvel","https://cursokotlin.com/wp-content/uploads/2017/07/batman.jpg"),
-            Alumnado("Wonder Woman","Peter Parker","Marvel","https://cursokotlin.com/wp-content/uploads/2017/07/wonder_woman.jpg"),
-            Alumnado("Spiderman","Peter Parker","Marvel","https://cursokotlin.com/wp-content/uploads/2017/07/spiderman.jpg"),
-            Alumnado("Batman","Peter Parker","Marvel","https://cursokotlin.com/wp-content/uploads/2017/07/batman.jpg"),
-            Alumnado("Wonder Woman","Peter Parker","Marvel","https://cursokotlin.com/wp-content/uploads/2017/07/wonder_woman.jpg")
+        val alumnadolists=listOf<Student>(
+            Student("Spiderman",false,"https://cursokotlin.com/wp-content/uploads/2017/07/spiderman.jpg","drawable/tick.png","drawable/milk.png"),
+            Student("Batman",false,"drawable/tick.png","drawable/tick.png",""),
+            Student("Wonder Woman",false,"drawable/tick.png","drawable/tick.png",""),
+            Student("Spiderman",false,"drawable/tick.png","drawable/tick.png",""),
+            Student("Batman",false,"drawable/tick.png","drawable/tick.png",""),
+            Student("Wonder Woman",false,"drawable/tick.png","drawable/tick.png",""),
+            Student("Spiderman",false,"drawable/tick.png","drawable/tick.png",""),
+            Student("Batman",false,"drawable/tick.png","drawable/tick.png",""),
+            Student("Wonder Woman",false,"drawable/tick.png","drawable/tick.png","")
 
             )
 
