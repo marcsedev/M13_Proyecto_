@@ -7,18 +7,19 @@
     android:background="@color/background"
     tools:context=".Portada">
 
+
+
     <Button
         android:id="@+id/btIniciarSesion"
         android:layout_width="263dp"
         android:layout_height="50dp"
         android:backgroundTint="#2e3176"
-        android:text="Iniciar Sesión"
+        android:text="@string/iniciar_sesion"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.926" />
-
 
     <TextView
         android:id="@+id/tvDescription"
@@ -37,7 +38,7 @@
         app:layout_constraintVertical_bias="0.686" />
 
 
-    <TextView
+        <TextView
         android:id="@+id/tvTittle"
         android:layout_width="262dp"
         android:layout_height="57dp"
@@ -65,4 +66,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.823" />
+
+    <ImageView
+        android:id="@+id/rectanglewhite"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectanglewhite"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:contentDescription="TODO" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
