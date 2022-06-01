@@ -32,6 +32,14 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/mainscreen_simbolo1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="196dp"
         android:src="@drawable/ellipse_roja"
         app:layout_constraintStart_toStartOf="parent"
