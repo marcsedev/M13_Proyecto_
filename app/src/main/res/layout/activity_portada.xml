@@ -21,26 +21,41 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.946" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/ellipse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="196dp"
+        android:src="@drawable/ellipse_roja"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/tvDescription"
-        android:layout_width="261dp"
-        android:layout_height="wrap_content"
+        android:layout_width="344dp"
+        android:layout_height="57dp"
         android:layout_centerInParent="true"
         android:layout_gravity="right"
         android:text="@string/entradilla"
         android:textColor="@color/white"
         android:textSize="17sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/rectanglewhite"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.686" />
+        app:layout_constraintTop_toBottomOf="@+id/tvTittle"
+        app:layout_constraintVertical_bias="0.584" />
 
-
-        <TextView
+    <TextView
         android:id="@+id/tvTittle"
-        android:layout_width="262dp"
+        android:layout_width="251dp"
         android:layout_height="57dp"
         android:text="ClassNotes"
         android:textColor="@color/white"
@@ -48,10 +63,21 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.771"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.563" />
+        app:layout_constraintVertical_bias="0.566" />
+
+    <ImageView
+        android:layout_width="77dp"
+        android:layout_height="59dp"
+        android:src="@drawable/ic_classnotes"
+        app:layout_constraintBottom_toTopOf="@+id/rectanglewhite"
+        app:layout_constraintEnd_toStartOf="@+id/tvTittle"
+        app:layout_constraintHorizontal_bias="0.657"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.699" />
 
     <Button
         android:id="@+id/btRegistrarse"
@@ -69,8 +95,8 @@
 
     <ImageView
         android:id="@+id/rectanglewhite"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="411dp"
+        android:layout_height="130dp"
         android:background="@drawable/rectanglewhite"
         android:contentDescription="TODO"
         android:visibility="visible"
