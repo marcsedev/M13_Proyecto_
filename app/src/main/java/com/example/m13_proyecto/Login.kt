@@ -8,9 +8,10 @@ import com.example.m13_proyecto.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth
 
 
-private lateinit var binding: ActivityLoginBinding
-
 class Login : AppCompatActivity() {
+
+    private lateinit var binding: ActivityLoginBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
