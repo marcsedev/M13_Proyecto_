@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "291303535462",
+    "project_id": "app-project-dam",
+    "storage_bucket": "app-project-dam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:291303535462:android:370de2e37b09c33c014ea7",
+        "android_client_info": {
+          "package_name": "com.example.m13_proyecto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "291303535462-shgv3rd9oniqbqbpqcpqbcmvni0j390v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACktryY2hHKtUajs00emlsC-79-xhc5Nw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "291303535462-shgv3rd9oniqbqbpqcpqbcmvni0j390v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

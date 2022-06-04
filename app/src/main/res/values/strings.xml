@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">M13</string>
-    <string name="entradilla">Classnotes te ayuda a mejorar la comunicación dentro de tu centro educativo. El trayecto comienza con un clic.</string>
+    <string name="app_name">ClassNotes</string>
+    <string name="entradilla">ClassNotes te ayuda a mejorar la comunicación dentro de tu centro educativo. El trayecto comienza con un clic.</string>
     <string name="iniciar_sesion">Iniciar Sesión</string>
 </resources>
