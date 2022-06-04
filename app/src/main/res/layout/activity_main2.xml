@@ -7,7 +7,7 @@
     tools:context=".MainActivity2">
 
   <ImageView
-      android:id="@+id/imageView7"
+      android:id="@+id/activitylogin"
       android:layout_width="0dp"
       android:layout_height="185dp"
       app:layout_constraintBottom_toBottomOf="parent"
