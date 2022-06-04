@@ -6,18 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".Login">
 
+
   <ImageView
       android:id="@+id/image_activitylogin"
-      android:layout_width="0dp"
-      android:layout_height="185dp"
+      android:layout_width="452dp"
+      android:layout_height="198dp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintHorizontal_bias="0.512"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
       app:layout_constraintVertical_bias="0.0"
       app:srcCompat="@drawable/loginimage" />
-
 
   <Button
       android:id="@+id/buttonlogin"
