@@ -60,34 +60,37 @@
         android:textSize="17sp"
         app:layout_constraintBottom_toTopOf="@+id/rectanglewhite"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintHorizontal_bias="0.634"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTittle"
-        app:layout_constraintVertical_bias="0.412" />
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/tvTittle"
         android:layout_width="238dp"
         android:layout_height="52dp"
+        android:gravity="center"
         android:text="ClassNotes"
         android:textColor="@color/white"
         android:textSize="45dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.791"
+        app:layout_constraintHorizontal_bias="0.664"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.586" />
+        app:layout_constraintVertical_bias="0.621" />
 
     <ImageView
-        android:layout_width="77dp"
-        android:layout_height="59dp"
-        android:layout_marginBottom="12dp"
+        android:id="@+id/logo_classNotes"
+        android:layout_width="75dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="16dp"
         android:src="@drawable/ic_classnotes"
+
         app:layout_constraintBottom_toTopOf="@+id/tvDescription"
-        app:layout_constraintEnd_toStartOf="@+id/tvTittle"
-        app:layout_constraintHorizontal_bias="0.625"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
