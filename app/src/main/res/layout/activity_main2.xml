@@ -7,7 +7,7 @@
     tools:context=".MainActivity2">
 
   <ImageView
-      android:id="@+id/activitylogin"
+      android:id="@+id/image_activitylogin"
       android:layout_width="0dp"
       android:layout_height="185dp"
       app:layout_constraintBottom_toBottomOf="parent"
@@ -19,7 +19,7 @@
       app:srcCompat="@drawable/loginImage" />
 
   <Button
-      android:id="@+id/button"
+      android:id="@+id/buttonlogin"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="Button"
