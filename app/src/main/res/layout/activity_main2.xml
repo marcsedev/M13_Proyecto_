@@ -22,86 +22,100 @@
       android:id="@+id/buttonlogin"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="Button"
-      tools:layout_editor_absoluteX="155dp"
-      tools:layout_editor_absoluteY="579dp" />
-
-  <CheckBox
-      android:id="@+id/checkBox2"
-      android:layout_width="122dp"
-      android:layout_height="38dp"
-      android:text="CheckBox"
-      tools:layout_editor_absoluteX="54dp"
-      tools:layout_editor_absoluteY="483dp" />
-
-  <EditText
-      android:id="@+id/editTextTextPassword"
-      android:layout_width="299dp"
-      android:layout_height="45dp"
-      android:ems="10"
-      android:inputType="textPassword"
-      android:gravity="center"
+      android:layout_marginBottom="32dp"
+      android:text="Iniciar sesion"
+      android:background="#EAE0E0"
+      android:textColor="#673AB7"
+      app:layout_constraintBottom_toBottomOf="@+id/textView6"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintStart_toStartOf="parent"
-      tools:layout_editor_absoluteY="368dp" />
+      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintStart_toStartOf="parent" />
 
   <EditText
       android:id="@+id/editTextTextEmailAddress"
       android:layout_width="303dp"
       android:layout_height="49dp"
       android:ems="10"
-      android:inputType="textEmailAddress"
       android:gravity="center"
+      android:hint="lmonfort@ceipjoanfuster.com"
+      android:inputType="textEmailAddress"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
-      tools:layout_editor_absoluteY="279dp" />
+      tools:layout_editor_absoluteY="319dp" />
 
-  <TextView
-      android:id="@+id/textView2"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:text="TextView"
-      app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+  <CheckBox
+      android:id="@+id/checkBox2"
+      android:layout_width="210dp"
+      android:layout_height="25dp"
+      android:text="Recordar Contraseña"
+      android:textColor="#686868"
+      tools:layout_editor_absoluteX="56dp"
+      tools:layout_editor_absoluteY="502dp" />
+
+  <EditText
+      android:id="@+id/editTextTextPassword"
+      android:layout_width="299dp"
+      android:layout_height="45dp"
+      android:ems="10"
+      android:gravity="center"
+      android:hint="********"
+      android:inputType="textPassword"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.158"
       app:layout_constraintStart_toStartOf="parent"
-      tools:ignore="MissingConstraints" />
+      tools:layout_editor_absoluteY="408dp" />
 
   <TextView
-      android:id="@+id/textView3"
+      android:id="@+id/passwordlogin"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="TextView"
+      android:text="Contraseña"
       app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.158"
+      app:layout_constraintHorizontal_bias="0.171"
       app:layout_constraintStart_toStartOf="parent" />
 
   <TextView
       android:id="@+id/textView5"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="TextView"
-      tools:layout_editor_absoluteX="297dp"
-      tools:layout_editor_absoluteY="423dp" />
+      android:text="Olvidaste la contraseña?"
+      android:textColor="#000000"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.782"
+      app:layout_constraintStart_toStartOf="parent"
+      tools:layout_editor_absoluteY="466dp" />
+
+  <TextView
+      android:id="@+id/emailtitlelogin"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="E-mail"
+      app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.144"
+      app:layout_constraintStart_toStartOf="parent"
+      tools:ignore="MissingConstraints" />
 
   <TextView
       android:id="@+id/textView6"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginBottom="68dp"
+      android:layout_marginBottom="48dp"
       android:text="TextView"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.498"
       app:layout_constraintStart_toStartOf="parent" />
 
   <TextView
-      android:id="@+id/textView7"
+      android:id="@+id/titlelogin"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:text="TextView"
-      tools:layout_editor_absoluteX="179dp"
-      tools:layout_editor_absoluteY="209dp" />
+      android:text="Iniciar sesión"
+      android:textSize="39sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      tools:layout_editor_absoluteY="211dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
