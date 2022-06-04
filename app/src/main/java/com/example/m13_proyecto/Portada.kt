@@ -5,6 +5,10 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.m13_proyecto.databinding.ActivityPortadaBinding
 
+
+enum class PasswordType{
+    BASIC
+}
 class Portada : AppCompatActivity() {
 
     private lateinit var binding: ActivityPortadaBinding

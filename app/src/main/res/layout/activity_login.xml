@@ -33,7 +33,7 @@
       app:layout_constraintStart_toStartOf="parent" />
 
   <EditText
-      android:id="@+id/editTextTextEmailAddress"
+      android:id="@+id/editTexEmailAddressLogin"
       android:layout_width="303dp"
       android:layout_height="49dp"
       android:ems="10"
@@ -58,7 +58,7 @@
       tools:ignore="MissingConstraints" />
 
   <EditText
-      android:id="@+id/editTextTextPassword"
+      android:id="@+id/editTextPasswordLogin"
       android:layout_width="299dp"
       android:layout_height="45dp"
       android:ems="10"
@@ -76,7 +76,7 @@
       android:layout_height="wrap_content"
       android:text="Contraseña"
       android:textStyle="bold"
-      app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+      app:layout_constraintBottom_toTopOf="@+id/editTextPasswordLogin"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.159"
       app:layout_constraintStart_toStartOf="parent" />
@@ -100,7 +100,7 @@
       android:layout_height="wrap_content"
       android:text="E-mail"
       android:textStyle="bold"
-      app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+      app:layout_constraintBottom_toTopOf="@+id/editTexEmailAddressLogin"
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.145"
       app:layout_constraintStart_toStartOf="parent"

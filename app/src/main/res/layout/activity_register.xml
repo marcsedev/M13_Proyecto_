@@ -33,7 +33,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/editTexEmailAddressRegister"
         android:layout_width="303dp"
         android:layout_height="49dp"
         android:layout_marginBottom="20dp"
@@ -60,7 +60,7 @@
 
 
     <EditText
-        android:id="@+id/editTextPassword2"
+        android:id="@+id/editTextPasswordRegister2"
         android:layout_width="299dp"
         android:layout_height="45dp"
         android:layout_marginBottom="24dp"
@@ -74,7 +74,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/editTextPasswordRegister1"
         android:layout_width="299dp"
         android:layout_height="45dp"
         android:layout_marginBottom="20dp"
@@ -93,7 +93,7 @@
         android:layout_height="wrap_content"
         android:text="Repetir la Contraseña"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editTextPassword2"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPasswordRegister2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.183"
         app:layout_constraintStart_toStartOf="parent" />
@@ -104,7 +104,7 @@
         android:layout_height="wrap_content"
         android:text="Contraseña"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPasswordRegister1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.16"
         app:layout_constraintStart_toStartOf="parent" />
@@ -115,7 +115,7 @@
         android:layout_height="wrap_content"
         android:text="E-mail"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/editTexEmailAddressRegister"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.145"
         app:layout_constraintStart_toStartOf="parent"
