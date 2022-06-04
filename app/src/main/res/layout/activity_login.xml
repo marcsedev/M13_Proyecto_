@@ -110,11 +110,11 @@
       android:id="@+id/textView6"
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
-      android:layout_marginBottom="64dp"
-      android:text="TextView"
+      android:layout_marginBottom="60dp"
+      android:text="No tienes una cuenta?"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.498"
+      app:layout_constraintHorizontal_bias="0.278"
       app:layout_constraintStart_toStartOf="parent" />
 
   <TextView
@@ -129,6 +129,18 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
       app:layout_constraintVertical_bias="0.328" />
+
+  <TextView
+      android:id="@+id/textViewCrearAhora"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="60dp"
+      android:text="Crearla ahora"
+      android:textStyle="bold"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.072"
+      app:layout_constraintStart_toEndOf="@+id/textView6" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

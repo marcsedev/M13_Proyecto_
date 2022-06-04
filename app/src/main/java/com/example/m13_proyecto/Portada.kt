@@ -2,7 +2,6 @@ package com.example.m13_proyecto
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.m13_proyecto.databinding.ActivityPortadaBinding
 
@@ -31,10 +30,10 @@ class Portada : AppCompatActivity() {
 
     fun registrarse() {
         binding.btRegistrarse.setOnClickListener{
-            val lanzar = Intent(this, MainActivity::class.java)
+            val lanzar = Intent(this, Register::class.java)
             startActivity((lanzar))
 
-        (Toast.makeText( this,"De momento va al recycler view",Toast.LENGTH_SHORT)).show()
+        //(Toast.makeText( this,"De momento va al recycler view",Toast.LENGTH_SHORT)).show()
         }
     }
 
