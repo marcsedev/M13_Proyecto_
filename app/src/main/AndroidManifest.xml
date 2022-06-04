@@ -35,8 +35,8 @@
             android:name=".Portada"
             android:exported="false"/>
         <activity
-            android:name=".MainActivity2"
-            android:exported="false" />
+            android:name=".Login"
+            android:exported="false"/>
 
     </application>
 

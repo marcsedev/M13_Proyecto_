@@ -8,4 +8,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="background">#5b61ff</color>
+    <color name="butonlogin">#5B61FF</color>
+
+
 </resources>

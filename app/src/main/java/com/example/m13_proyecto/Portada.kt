@@ -23,7 +23,7 @@ class Portada : AppCompatActivity() {
     fun iniciarsesion() {
         //funcion para inciar sesion
         binding.btIniciarSesion.setOnClickListener {
-        val lanzar = Intent(this, MainActivity::class.java)
+        val lanzar = Intent(this, Login::class.java)
         startActivity((lanzar))
 //prueba
         }
@@ -31,7 +31,10 @@ class Portada : AppCompatActivity() {
 
     fun registrarse() {
         binding.btRegistrarse.setOnClickListener{
-            (Toast.makeText( this,"Aún no está activo",Toast.LENGTH_SHORT)).show()
+            val lanzar = Intent(this, MainActivity::class.java)
+            startActivity((lanzar))
+
+        (Toast.makeText( this,"De momento va al recycler view",Toast.LENGTH_SHORT)).show()
         }
     }
 
