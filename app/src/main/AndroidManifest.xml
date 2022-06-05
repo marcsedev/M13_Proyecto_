@@ -16,6 +16,9 @@
         android:theme="@style/Theme.M13_Proyecto"
         tools:targetApi="31">
         <activity
+            android:name=".ElegirClases"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity

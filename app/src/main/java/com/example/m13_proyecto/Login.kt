@@ -18,6 +18,7 @@ class Login : AppCompatActivity() {
         setContentView(binding.root)
         // Setup
         setup()
+
     }
 
 
@@ -26,6 +27,7 @@ class Login : AppCompatActivity() {
         val buttonlogin= binding.buttonlogin
         val editTexEmailAddressLogin = binding.editTexEmailAddressLogin
         val editTextPasswordLogin = binding.editTextPasswordLogin
+
             buttonlogin.setOnClickListener {
                 if (editTexEmailAddressLogin.text.isNotEmpty() && editTextPasswordLogin.text.isNotEmpty()) { //&& binding.editTextPassword2.text.isNotEmpty()){
                     FirebaseAuth.getInstance().signInWithEmailAndPassword(
@@ -48,6 +50,8 @@ class Login : AppCompatActivity() {
                 }
 
             }
+        binding.textViewCrearAhora.setOnClickListener { showRegister() }
+
 
     }
 
@@ -61,5 +65,13 @@ class Login : AppCompatActivity() {
     }
 
 
+    private fun showRegister() {
+        val registerIntent = Intent(this, Register::class.java).apply {
+            //putExtra("email",email)
+            //putExtra("password", password.name)
+        }
+        startActivity(registerIntent)
+    }
 
-}
+    }
+

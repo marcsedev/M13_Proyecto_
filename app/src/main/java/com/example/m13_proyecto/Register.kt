@@ -45,6 +45,8 @@ class Register : AppCompatActivity() {
 
         }
 
+        binding.textViewIniciarSesion.setOnClickListener{showLogin()}
+
     }
 
     private fun showHome() {//(email:String,password:PasswordType) {
@@ -55,6 +57,15 @@ class Register : AppCompatActivity() {
         startActivity(homeIntent)
 
     }
+
+    private fun showLogin() {
+        val registerIntent = Intent(this, Login::class.java).apply {
+            //putExtra("email",email)
+            //putExtra("password", password.name)
+        }
+        startActivity(registerIntent)
+    }
+
 
 
 }

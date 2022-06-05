@@ -26,7 +26,7 @@ class Portada : AppCompatActivity() {
     fun iniciarsesion() {
         //funcion para inciar sesion
         binding.btIniciarSesion.setOnClickListener {
-        val lanzar = Intent(this, Login::class.java)
+        val lanzar = Intent(this, ElegirClases::class.java)
         startActivity((lanzar))
 //prueba
         }
