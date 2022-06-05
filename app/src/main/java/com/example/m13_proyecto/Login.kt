@@ -37,8 +37,6 @@ class Login : AppCompatActivity() {
                         if (it.isSuccessful) {
                             showHome()//(it.result?.user?.email?:"",PasswordType.BASIC)
 
-
-
                         } else {
                             (Toast.makeText( this,"Error al ingresar", Toast.LENGTH_SHORT)).show()
 
@@ -51,6 +49,8 @@ class Login : AppCompatActivity() {
 
             }
         binding.textViewCrearAhora.setOnClickListener { showRegister() }
+        binding.textView5.setOnClickListener{ (Toast.makeText( this,"Servicio no disponible por el momento", Toast.LENGTH_SHORT)).show()}
+        binding.checkBox2.setOnClickListener(){(Toast.makeText( this,"Servicio no disponible por el momento", Toast.LENGTH_SHORT)).show()}
 
 
     }

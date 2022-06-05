@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    
+
     private fun initRecycleviewMensajes() {
         binding.rvMsg.layoutManager= LinearLayoutManager(this)
         binding.rvMsg.adapter= MensajeAdapter(MensajesProvider.mensajeList)
