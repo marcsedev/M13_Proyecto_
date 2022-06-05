@@ -63,10 +63,10 @@
         android:text="Tercero"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintHorizontal_bias="0.314"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView20"
-        app:layout_constraintVertical_bias="0.055"
+        app:layout_constraintVertical_bias="0.04"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -77,10 +77,10 @@
         android:text="Cuarto"
         app:layout_constraintBottom_toTopOf="@+id/imageView22"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintHorizontal_bias="0.308"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_inf3"
-        app:layout_constraintVertical_bias="0.081" />
+        app:layout_constraintVertical_bias="0.08" />
 
     <TextView
         android:id="@+id/tv_inf5"
@@ -89,10 +89,10 @@
         android:text="Quinto"
         app:layout_constraintBottom_toTopOf="@+id/imageView22"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.31"
+        app:layout_constraintHorizontal_bias="0.308"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_inf4"
-        app:layout_constraintVertical_bias="0.416" />
+        app:layout_constraintVertical_bias="0.383" />
 
     <ImageView
         android:id="@+id/imageView12"
@@ -101,10 +101,10 @@
         android:layout_marginTop="9dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/tv_inf4"
-        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintHorizontal_bias="0.84"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView13"
-        app:layout_constraintVertical_bias="0.016"
+        app:layout_constraintVertical_bias="0.02"
         app:srcCompat="@drawable/logo_green"
         tools:ignore="MissingConstraints" />
 
@@ -114,10 +114,10 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/tv_inf3"
-        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintHorizontal_bias="0.877"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="0.046"
+        app:layout_constraintVertical_bias="0.047"
         app:srcCompat="@drawable/logo_green" />
 
     <TextView
