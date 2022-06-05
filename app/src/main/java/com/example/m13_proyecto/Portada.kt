@@ -4,11 +4,10 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.m13_proyecto.databinding.ActivityPortadaBinding
-
-
 enum class PasswordType{
     BASIC
 }
+
 class Portada : AppCompatActivity() {
 
     private lateinit var binding: ActivityPortadaBinding
@@ -26,7 +25,7 @@ class Portada : AppCompatActivity() {
     fun iniciarsesion() {
         //funcion para inciar sesion
         binding.btIniciarSesion.setOnClickListener {
-        val lanzar = Intent(this, ElegirClases::class.java)
+        val lanzar = Intent(this, Login::class.java)
         startActivity((lanzar))
 //prueba
         }

@@ -50,7 +50,7 @@ class Register : AppCompatActivity() {
     }
 
     private fun showHome() {//(email:String,password:PasswordType) {
-        val homeIntent=Intent(this,Login::class.java).apply{
+        val homeIntent=Intent(this,Portada::class.java).apply{
             //putExtra("email",email)
             //putExtra("password", password.name)
         }

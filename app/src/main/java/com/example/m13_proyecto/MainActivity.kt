@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setup()
+        //finish()
 
     }
 
@@ -21,8 +22,7 @@ class MainActivity : AppCompatActivity() {
         binding.button.setOnClickListener{
             showClasslist()
         }
-        showClasslist()
-    }
+      }
 
     private fun showClasslist() {
         val classIntent= Intent(this,ElegirClases::class.java).apply{
