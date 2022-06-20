@@ -73,5 +73,21 @@ class Login : AppCompatActivity() {
         startActivity(registerIntent)
     }
 
-    }
 
+
+
+override fun onBackPressed() {
+        showSplash()
+
+
+}
+
+private fun showSplash(){//(email:String,password:PasswordType) {
+    val splashIntent= Intent(this,Portada::class.java).apply{
+        //putExtra("email",email)
+        //putExtra("password", password.name)
+    }
+    startActivity(splashIntent)
+
+}
+}

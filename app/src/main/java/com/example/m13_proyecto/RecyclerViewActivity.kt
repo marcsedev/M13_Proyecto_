@@ -18,11 +18,14 @@ class RecyclerViewActivity : AppCompatActivity() {
         binding=ActivityRecyclerviewBinding.inflate(layoutInflater)
         setContentView(binding.root)
         initRecycleview()
+        //val db = Firebase.firestore
 
     }
 
     fun initRecycleview(){
+        //hacer scroll
         binding.rvListClass.layoutManager= LinearLayoutManager(this)
+        //adaptador
         binding.rvListClass.adapter=AlumnadoAdapter(AlumnadoProvider.alumnadolists)
 
     }

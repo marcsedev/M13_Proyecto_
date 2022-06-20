@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.m13_proyecto.databinding.ActivityPortadaBinding
+
 enum class PasswordType{
     BASIC
 }
@@ -38,6 +39,16 @@ class Portada : AppCompatActivity() {
 
         //(Toast.makeText( this,"De momento va al recycler view",Toast.LENGTH_SHORT)).show()
         }
+    }
+
+
+    private fun showSplash(){//(email:String,password:PasswordType) {
+        val splashIntent= Intent(this,SplashActivity::class.java).apply{
+            //putExtra("email",email)
+            //putExtra("password", password.name)
+        }
+        startActivity(splashIntent)
+
     }
 
 }
